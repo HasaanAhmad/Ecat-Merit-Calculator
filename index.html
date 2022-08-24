@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>JS Bin</title>
+</head>
+<body>
+<h1 align="center">Calculate Your Aggregate Here </h1>
+  <div class="container">
+    <label for="Matric">Enter Your Matric Marks:</label>
+    <input id="Matric" type="number">
+    <label for="Fsc">Enter Your Fsc Marks Marks:</label>
+    <input id="Fsc" type="number">
+    <label for="ec">Enter Your ECAT Marks:</label>
+    <input id="ec" type="number">
+  </div>
+  <div class="container">
+    <button onClick={handleChange()} class="btn">Calculate</button>
+    <h2 id="agg">Your Calculated Aggregare will be displayed Here.</h2>
+  </div>
+</body>
+</html> 
